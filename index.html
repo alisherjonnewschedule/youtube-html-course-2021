@@ -1,0 +1,225 @@
+<!-- Birinchi Kamentariyam -->
+
+<!-- Boiler Plate -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Birinchi Web Sahifam</title>
+  </head>
+  <body>
+    <!-- Semantic -->
+    <header>
+      <h1>Mening wevbsaytim</h1>
+    </header>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cum quos,
+        molestiae quibusdam error praesentium repellat magnam vel ratione ipsum
+        explicabo dolorem cumque iusto impedit perspiciatis deserunt animi
+        temporibus commodi sit veritatis! Cupiditate, fugiat. Pariatur omnis
+        corporis saepe ipsum tempore! Repellendus facere aliquam cupiditate
+        quidem placeat voluptatum maxime quasi velit facilis et ipsa blanditiis
+        sapiente, magni quas reiciendis sit voluptas possimus voluptatibus atque
+        sequi recusandae nisi tenetur incidunt fugit. Laudantium dolor eveniet
+        ut tempore fuga ad debitis ratione enim itaque exercitationem, libero
+        eius veritatis illo sed? Iste unde accusamus obcaecati corrupti natus
+        labore, consequatur nisi nesciunt impedit neque animi consectetur
+        nostrum, atque nemo eligendi aliquid aspernatur. Odit esse voluptatum
+        hic quo, fugit, magni excepturi nemo doloremque illum necessitatibus
+        eaque laborum obcaecati voluptate. A nemo dignissimos officia sint quas
+        est. Ab at accusamus dolor eligendi voluptatum, consequatur quas
+        dignissimos voluptates sunt quam, iste dolorum. Ipsa, laborum. Optio
+        cupiditate quos minima libero.
+      </p>
+    </section>
+    <footer>Hammag Raxmat</footer>
+
+    <!-- Media, iframe -->
+    <img src="images/tesla.jpg" alt="Teslani moshinasi bolishi keregidi" />
+    <img src="images/Iphone1.jpg" alt="Iphone 12 bolishi keregidi" />
+
+    <video controls muted autoplay>
+      <source src="videos/video.mkv" />
+      <source src="videos/video2.mkv" />
+      <source src="videos/video2.avi" />
+      <source src="videos/video2.mp4" />
+      browseriz eskiripti yengilen
+    </video>
+    <br />
+    <audio muted autoplay controls>
+      <source src="audios/programming_music.mp3" />
+      <source src="audios/programming_music.mp3" />
+      <source src="audios/programming_music.mp3" />
+    </audio>
+    <br />
+    <!-- Form -->
+    <form action="/register">
+      <fieldset>
+        <legend>Form Elementlati</legend>
+        <!-- form items -->
+        <!-- label -->
+        <label for="Name">ism: </label>
+        <!-- input -->
+        <input type="text" placeholder="nimadir" id="Name" name="ism" />
+        <br />
+        <br />
+        <!-- select -->
+        <label for="vatan">Qaysi davlatdan siz?</label>
+        <select name="vatani" id="vatan">
+          <option value="uz">O'zbekiston</option>
+          <option value="kz">Qozog'iston</option>
+          <option value="tj">Tojikiston</option>
+        </select>
+        <br />
+        <br />
+        <!-- textarea -->
+        <label for="sms">Xabaringizni kiriting</label>
+        <textarea name="xabar" id="sms" cols="50" rows="5"></textarea>
+        <br />
+        <br />
+        <!-- button -->
+        <button type="submit">Qabul</button>
+        <button type="reset">Qayta kiritish</button>
+      </fieldset>
+      <fieldset>
+        <legend>Input Turlari</legend>
+        <!-- text -->
+        <input type="text" name="Ism" placeholder="Ismingizni kiriting" />
+        <br />
+        <!-- number -->
+        <input type="number" name="yosh" placeholder="Yoshingizni kiriting" />
+        <br />
+        <!-- email -->
+        <input type="email" name="email" placeholder="Emailingizni kiriting" />
+        <br />
+        <!-- password -->
+        <input type="password" name="parol" placeholder="Parol kiriting" />
+        <br />
+        <!-- date -->
+        <input
+          type="date"
+          name="tk"
+          placeholder="Tug'ilgan kuningizni kiriting"
+        />
+        <br />
+        <!-- color -->
+        <label for="ranguchun">Yoqtirgan Rangizni kiriting</label>
+        <input type="color" name="rang" id="ranguchun" />
+        <br />
+        <!-- range -->
+        <label for="narx">Narx kiriting</label>
+        <input type="range" name="narx" id="narx" />
+        <br />
+        <!-- radio -->
+        <label for="jovob">A)</label>
+        <input type="radio" value="a" name="1-sovol" id="jovob" />
+        <label for="jovobb">B)</label>
+        <input type="radio" value="b" name="1-sovol" id="jovobb" />
+        <br />
+        <!-- checkbox -->
+        <label for="Futbol">Futbol</label>
+        <input type="checkbox" value="futbol" name="sport" id="Futbol" />
+        <label for="Basketbol">Basketbol</label>
+        <input
+          type="checkbox"
+          value="Basketbol"
+          name="1-sovol"
+          id="Basketbol"
+        />
+        <br />
+        <!-- file -->
+        <label for="Rasm">Rasm</label>
+        <input type="file" value="Rasm" name="rasm" id="Rasm" />
+        <br />
+        <button type="submit">Qabul Qilish</button>
+      </fieldset>
+    </form>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Table -->
+    <!-- table -> Table -> jadval -->
+    <!-- thead -> Table head -> jadval boshi -->
+    <!-- tbody -> Table body -> jadval tanasi -->
+    <!-- tr -> Table row -> jadval qatori -->
+    <!-- th -> Table heading -> jadval sarvalhasi -->
+    <!-- td -> Table data -> jadval malumot -->
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>6-sinf</th>
+          <th>7-sinf</th>
+          <th>8-sinf</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ona tili</td>
+          <td>Matematika</td>
+          <td>Fizika</td>
+        </tr>
+        <tr>
+          <td>Ingliz tili</td>
+          <td>Nemis tili</td>
+          <td>Xitoy tili</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Heading, paragraph -->
+    <h1>Hammaga Salom</h1>
+    <h2>Hammaga Salom</h2>
+    <h3>Hammaga Salom</h3>
+    <h4>Hammaga Salom</h4>
+    <h5>Hammaga Salom</h5>
+    <h6>Hammaga Salom</h6>
+
+    <p>
+      <!-- b - strong, small, em - i, del, sub, sup  -->
+      <strong>Lorem Ipsum</strong> is simply <i>dummy</i> text of the printing
+      and typesetting industry. Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown printer took a galley of
+      type and scrambled it to make a type specimen <small>book</small>. It has
+      survived not only five centuries, but also the leap into electronic
+      typesetting, <del>remaining</del> essentially unchanged. It was
+      popularised in the <sub>1960s</sub> with the <sup>release</sup> of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum.
+    </p>
+
+    <!-- Hyper Link -->
+    <a href="https://google.com" target="_blank"> Google ga olg'a </a>
+    <!-- List -->
+    <!-- 
+        ul -> unordered list -> Tartibga solinmagan
+        types -> disc, circle, square
+        ol -> ordered list -> Tartibga solingan
+        types -> 1, a, A, i, I
+        dl -> definition list -> Izoh  
+        dt -> definition title -> nomi
+        dd -> definition description -> izoh 
+        li -> list item -> ro'yxat qismi
+     -->
+    <ul type="circle">
+      <li>Go'sht</li>
+      <li>Tuxum</li>
+      <li>Yo'g'</li>
+    </ul>
+
+    <ol type="I">
+      <li>Go'sht</li>
+      <li>Tuxum</li>
+      <li>Yo'g'</li>
+    </ol>
+
+    <dl>
+      <dt>Kofe:</dt>
+      <dd>qora rangdagi achchiq ta'mli osimlik</dd>
+      <dt>Shakar:</dt>
+      <dd>oq rangdagi shirin tam beruvchi.</dd>
+    </dl>
+  </body>
+</html>
